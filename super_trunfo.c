@@ -77,7 +77,7 @@ int main() {
     IMPRIMINDO OS DADOS EM TELA
     */
     printf("\n==> RESULTADO <==\n");
-    printf(" * A CARTA 1 é do estado [%c], código da carta [%s], cidade [%s], população [%d], área (km2) [%.2f], PIB [%.2f], número pontos turísticos [%d]\n", 
+    printf("CARTA 1 \nEstado: %c \nCódigo: %s \nNome da Cidade: %s \nPopulação: %d \nÁrea: %.2f km² \nPIB: %.2f bilhões de reais: \nNúmero de pontos turísticos: %d\n\n", 
         estado_carta1, 
         codigoCarta_carta1,
         nomeCidade_carta1,
@@ -87,7 +87,7 @@ int main() {
         numPontosTuristicos_carta1
     );
 
-    printf(" * CARTA 2 é do estado [%c], código da carta [%s], cidade [%s], população [%d], área (km2) [%.2f], PIB [%.2f], número pontos turísticos [%d]\n", 
+    printf("CARTA 2 \nEstado: %c \nCódigo: %s \nNome da Cidade: %s \nPopulação: %d \nÁrea: %.2f km² \nPIB: %.2f bilhões de reais: \nNúmero de pontos turísticos: %d\n", 
         estado_carta2, 
         codigoCarta_carta2,
         nomeCidade_carta2,
